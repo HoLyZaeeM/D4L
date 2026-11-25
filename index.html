@@ -1,0 +1,81 @@
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  data-vocal-cue-count="25"
+  data-vocal-cue-start="4"
+  data-vocal-cue-end="20"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#174F48" />
+    <meta
+      name="description"
+      content="A little universe made for Dorna. Every language. One feeling."
+    />
+
+    <title>For Dorna | My Universe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="background" aria-hidden="true">
+      <div class="gradient-layer"></div>
+      <div class="grid-layer"></div>
+      <div class="glow-layer"></div>
+    </div>
+
+    <section id="intro">
+      <div class="intro-content">
+        <span class="intro-eyebrow">A LITTLE UNIVERSE</span>
+
+        <h1>For Dorna.</h1>
+
+        <p>Every language. One feeling.</p>
+
+        <button id="start" type="button" aria-controls="experience">
+          ENTER MY UNIVERSE
+          <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+
+      <div class="intro-footer">GRUS GREEN · DORNA GREEN</div>
+    </section>
+
+    <main id="experience">
+      <canvas
+        id="canvas"
+        role="img"
+        aria-label="A heart formed from words expressing love in different languages."
+      ></canvas>
+
+      <div id="final">
+        <span class="final-decoration" aria-hidden="true">✦</span>
+
+        <p>I LOVE YOU, DORNA.</p>
+
+        <span class="final-subtitle">
+          In every language, in every universe.
+        </span>
+      </div>
+    </main>
+
+    <audio
+      id="music"
+      src="Massive%20Attack%20-%20Angel.mp3"
+      preload="auto"
+    ></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
